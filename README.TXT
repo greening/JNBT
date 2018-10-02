@@ -1,3 +1,4 @@
+
 JNBT 1.6 Beta
 
 The original JNBT project seems to have been abandoned.
@@ -31,6 +32,9 @@ JNBT is a library that can read and write NBT files, written in Java by Graham E
 --------------
 
 Version History:
+JNBT 1.8 (Dan Greening)
+	Build apidocs in site
+
 1.7 (Marius Lindvall)
  ** WORK IN PROGRESS **
  - NBT reader and writer classes which do not require loading the entire NBT structure to memory
