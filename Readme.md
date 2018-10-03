@@ -1,7 +1,13 @@
+# JNBT: The Java NBT Library
 
-JNBT 1.6 Beta
+## NBT
 
-The original JNBT project seems to have been abandoned.
+NBT, or Named Binary Tag, is a file format created by Markus Persson for use with Minecraft levels. Although originally designed for Minecraft levels, it is appropriate for many use cases.
+
+## JNBT
+
+JNBT is a Java library to read and write NBT files, written by Graham Edgecombe and available open-source under the BSD license.
+
 This fork of JNBT has added support for Tag_Int_Array, and added classes that allow reading without loading an entire NBT structure to memory.
 
 Thanks to:
@@ -11,29 +17,19 @@ Jocopa3 - Initial Int-Array support
 Morlok8k - Maintaining the project
 MarkJeronimus - Maintaining the project
 
---------------
+## Building
+
+This version uses Maven. To build JAR and Javadocs, type
+> mvn clean install site
 
 For more information about the license, see LICENSE.TXT.
 
 For more information about the project, see http://jnbt.sf.net/.
 
---------------
+## Version History
 
-JNBT: The Java NBT Library
-
-What is NBT?
-
-NBT, or Named Binary Tag, is a file format created by Markus Persson for use with Minecraft levels. Although originally designed for Minecraft levels, it is appropriate for the vast majority of use cases.
-
-What is JNBT?
-
-JNBT is a library that can read and write NBT files, written in Java by Graham Edgecombe and available open-source under the BSD license.
-
---------------
-
-Version History:
 JNBT 1.8 (Dan Greening)
-	Build apidocs in site
+- Build apidocs with Maven
 
 1.7 (Marius Lindvall)
  ** WORK IN PROGRESS **
