@@ -70,7 +70,6 @@ import static org.jnbt.NBTConstants.CHARSET;
  * @author Graham Edgecombe, ensirius
  */
 public final class NBTInputStream implements Closeable {
-	@SuppressWarnings("TypeMayBeWeakened") // Suppress IntelliJ bug
 	private final DataInputStream is;
 
 	/**
@@ -92,7 +91,6 @@ public final class NBTInputStream implements Closeable {
 	 * @deprecated Use {@link #NBTInputStream(InputStream, NBTCompression)} instead;
 	 */
 	@Deprecated
-	@SuppressWarnings("BooleanParameter")
 	public NBTInputStream(InputStream is, boolean gzipped) throws IOException {
 		this(is, gzipped ? GZIP : UNCOMPRESSED);
 	}
@@ -210,7 +208,6 @@ public final class NBTInputStream implements Closeable {
 		}
 	}
 
-	@SuppressWarnings("MethodMayBeStatic")
 	private Tag readEndTagPayload(int depth) throws IOException {
 		if (depth == 0)
 			throw new IOException("[JNBT] TAG_End found without a TAG_Compound/TAG_List tag preceding it.");

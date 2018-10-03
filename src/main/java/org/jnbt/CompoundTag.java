@@ -48,7 +48,6 @@ import java.util.stream.Collectors;
  *
  * @author Graham Edgecombe
  */
-@SuppressWarnings({"AssignmentToCollectionOrArrayFieldFromParameter", "ReturnOfCollectionOrArrayField"})
 public final class CompoundTag extends Tag {
 	/**
 	 * @since 1.6

@@ -46,9 +46,6 @@ import java.util.stream.Collectors;
  *
  * @author Jocopa3
  */
-@SuppressWarnings({"AssignmentToCollectionOrArrayFieldFromParameter",
-                   "ReturnOfCollectionOrArrayField",
-                   "MethodCanBeVariableArityMethod"})
 public final class IntArrayTag extends Tag {
 	private final int[] value;
 

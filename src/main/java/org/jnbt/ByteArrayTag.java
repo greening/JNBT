@@ -47,7 +47,6 @@ import java.util.stream.IntStream;
  *
  * @author Graham Edgecombe
  */
-@SuppressWarnings({"AssignmentToCollectionOrArrayFieldFromParameter", "ReturnOfCollectionOrArrayField"})
 public final class ByteArrayTag extends Tag {
 	private final byte[] value;
 
